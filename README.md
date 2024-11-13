@@ -21,5 +21,9 @@ Aplikacja odczytuje artykuł, przetwarza go zgodnie z określonymi wytycznymi i 
 
 1. **Zainstaluj Python**: Upewnij się, że masz zainstalowany Python w wersji 3.x.
 
-2. **Zainstaluj bibliotekę OpenAI**: Użyj poniższego polecenia, aby zainstalować bibliotekę OpenAI:
+2. **Zainstaluj bibliotekę OpenAI**: Użyj poniższego polecenia, aby zainstalować bibliotekę OpenAI:<br>
    pip install openai
+
+## Uruchomienie
+1. **Ustaw klucz API OpenAI**: Zastąp `YOUR_API_KEY`
+2. **Wygeneruj artykuł z pliku txt**: w terminalu wpisz ```python app.py ``` (artykul.html został wcześniej wygenerowany)

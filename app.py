@@ -20,7 +20,7 @@ def generate_html(article_content, prompt):
     openai.api_key = api_key
 
     messages = [
-        {"role": "system", "content": "Jesteś pomocnym asystentem, który generuje kod HTML na podstawie przesłanych artykułów txt."},
+        {"role": "system", "content": "Jesteś pomocnym asystentem i świetnym programistą, który generuje kod HTML na podstawie przesłanych artykułów txt."},
         {"role": "user", "content": f"{prompt}\n\n{article_content}"}
     ]
 
@@ -42,14 +42,14 @@ def main():
     article_path = 'article.txt' 
     html_output_path = 'artykul.html'
     prompt = """Proszę wygenerować kod HTML dla poniższego artykułu w języku polskim, przestrzegając następujących wytycznych:
-    1. **Struktura treści**: Wykorzystaj odpowiednie tagi HTML do strukturyzacji artykułu, takie jak <h1>, <h2>, <p>, <ul>, <li>, <blockquote> i inne, aby odzwierciedlić logiczny podział i hierarchię treści artykułu.
+    1. **Struktura treści**: Wykorzystaj odpowiednie tagi HTML do strukturyzacji artykułu, takie jak <h1>, <h2>, <p>, <ul>, <li> i inne, aby odzwierciedlić logiczny podział i hierarchię treści artykułu.
     2. **Obrazki**: Wskaż miejsca, w których warto umieścić grafikę, dodając:
    - Tag <img> z atrybutem src="image_placeholder.jpg" w miejscach, gdzie obrazki będą wizualnie wzbogacać treść.
    - Dodaj atrybut alt do każdego obrazka jako prompt, który będzie dokładnie opisywać treść obrazka w języku polskim. 
    - Umieść podpis pod każdym obrazkiem, korzystając z odpowiedniego tagu HTML, np. <figcaption>.
     3. **Bez dodatkowych kodów CSS i JavaScript**: Zwrócony kod HTML powinien zawierać jedynie zawartość przeznaczoną do wstawienia pomiędzy tagi <body> i </body>. **Nie** dołączaj znaczników <html>, <head> ani <body>.
-    4. **Dokładność**: Nie zostawiaj na poczatku ```html oraz ``` na końcu w kodzie
-    5. **Zmiany**: Zmieniaj ani nie dodawaj treści do artykułu niżej.
+    4. **Dokładność**: NIE dodawaj na poczatku kodu: ```html oraz ``` na końcu w kodzie
+    5. **Zmiany**: Nie Zmieniaj ani nie dodawaj treści do artykułu niżej.
     Artykuł:
     """
 
