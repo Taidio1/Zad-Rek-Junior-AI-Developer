@@ -13,9 +13,9 @@ Aplikacja odczytuje artykuł, przetwarza go zgodnie z określonymi wytycznymi i 
 
 ## Wymagania
 
-- Python 3.x
-- Zainstalowana biblioteka `openai`
-- Klucz API OpenAI
+- Python 3.x.
+- Zainstalowana biblioteka `openai`.
+- Klucz API OpenAI.
 
 ## Instalacja
 
@@ -27,3 +27,9 @@ Aplikacja odczytuje artykuł, przetwarza go zgodnie z określonymi wytycznymi i 
 ## Uruchomienie
 1. **Ustaw klucz API OpenAI**: Zastąp `YOUR_API_KEY`
 2. **Wygeneruj artykuł z pliku txt**: w terminalu wpisz ```python app.py ``` (artykul.html został już wcześniej wygenerowany)
+
+Dodatkowe zadania (+Branch: Playground)
+- Wygenerowanie szablonu HTML do podglądu artykułu 
+- Mierzenie czasu i liczenie tokenów (zapisywane w osobnym pliku .txt).
+- Walidacja wygenerowanej strony – zaimplementowałem funkcję, która sprawdza wygenerowaną stronę pod kątem obecności niepotrzebnych tagów, aby zapewnić jej czystość i zgodność z wymaganiami.
+   - Mimo początkowych instrukcji w promptach, aby AI nie dodawało kodu ,,```html ,, oraz ,, ``,, na początku i końcu strony, zauważyłem, że 1/4 prób zawierały błędne dane. Przeprowadziłem poprawki w algorytmie, eliminując ten problem.
