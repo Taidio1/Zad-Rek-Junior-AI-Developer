@@ -31,6 +31,7 @@ Aplikacja odczytuje artykuł, przetwarza go zgodnie z określonymi wytycznymi i 
 ### Dodatkowe Funckje (+Branch: Playground)
 Branch: Main
 - Wygenerowanie szablonu HTML do podglądu artykułu
+
 Branch: Playground
 - Mierzenie czasu i liczenie tokenów (zapisywane w osobnym pliku .txt).
 - Walidacja wygenerowanej strony – zaimplementowałem funkcję, która sprawdza wygenerowaną stronę pod kątem obecności niepotrzebnych tagów, aby zapewnić jej czystość i zgodność z wymaganiami.
