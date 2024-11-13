@@ -35,4 +35,3 @@ Branch: Main
 Branch: Playground
 - Mierzenie czasu i liczenie tokenów (zapisywane w osobnym pliku .txt).
 - Walidacja wygenerowanej strony – zaimplementowałem funkcję, która sprawdza wygenerowaną stronę pod kątem obecności niepotrzebnych tagów, aby zapewnić jej czystość i zgodność z wymaganiami.
-   - Mimo początkowych instrukcji w promptach, aby AI nie dodawało kodu ,,```html ,, oraz ,, ``,, na początku i końcu strony, zauważyłem, że 1/4 prób zawierały błędne dane. Przeprowadziłem poprawki w algorytmie, eliminując ten problem.
