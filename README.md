@@ -27,3 +27,10 @@ Aplikacja odczytuje artykuł, przetwarza go zgodnie z określonymi wytycznymi i 
 ## Uruchomienie
 1. **Ustaw klucz API OpenAI**: Zastąp `YOUR_API_KEY`
 2. **Wygeneruj artykuł z pliku txt**: w terminalu wpisz ```python app.py ``` (artykul.html został już wcześniej wygenerowany)
+
+
+### Dodatkowy Playground
+Nowa funkcjonalność: 
+- Mierzenie czasu i liczenie tokenów (potrzebny Import time)
+- Walidacja wygenerowanej strony pod kontem niepotrzbnych tagów
+   - Początkowo pomimo jasnego zaznaczenia w treści promptów aby nie Ai nie dodawało ```html, ``` na początku i końcu strony 1/4 próby zawierały błąd.

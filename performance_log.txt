@@ -1,0 +1,24 @@
+Czas wykonania zapytania: 11.352474212646484 sekund
+Liczba użytych tokenów: 2205
+
+Czas wykonania zapytania: 20.36995530128479 sekund
+Liczba użytych tokenów: 2254
+
+Czas wykonania zapytania: 10.491395711898804 sekund
+Liczba użytych tokenów: 2193
+
+Czas wykonania zapytania: 14.425491094589233 sekund
+Liczba użytych tokenów: 2222
+
+Czas wykonania zapytania: 14.952840089797974 sekund
+Liczba użytych tokenów: 2308
+
+Czas wykonania zapytania: 10.824674367904663 sekund
+Liczba użytych tokenów: 2164
+
+Czas wykonania zapytania: 12.226006269454956 sekund
+Liczba użytych tokenów: 2238
+
+Czas wykonania zapytania: 12.080771207809448 sekund
+Liczba użytych tokenów: 2200
+
