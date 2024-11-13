@@ -28,7 +28,7 @@ Aplikacja odczytuje artykuł, przetwarza go zgodnie z określonymi wytycznymi i 
 1. **Ustaw klucz API OpenAI**: Zastąp `YOUR_API_KEY`
 2. **Wygeneruj artykuł z pliku txt**: w terminalu wpisz ```python app.py ``` (artykul.html został już wcześniej wygenerowany)
 
-###Dodatkowe zadania (+Branch: Playground)
+### Dodatkowe zadania (+Branch: Playground)
 - Wygenerowanie szablonu HTML do podglądu artykułu 
 - Mierzenie czasu i liczenie tokenów (zapisywane w osobnym pliku .txt).
 - Walidacja wygenerowanej strony – zaimplementowałem funkcję, która sprawdza wygenerowaną stronę pod kątem obecności niepotrzebnych tagów, aby zapewnić jej czystość i zgodność z wymaganiami.
